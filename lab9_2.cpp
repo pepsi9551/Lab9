@@ -3,6 +3,22 @@ using namespace std;
 
 //Write the function printO() here
 
+void printO(int N, int M){
+	
+	if(N > 0 && M > 0){
+		for(int j =0;j < N; j++){
+		for(int i = 0;i < M; i++){
+		cout << "O";
+	 }
+	 cout << "\n";
+	}
+	}else{
+		cout << "Invalid input";
+	}
+	
+	
+}
+
 int main(){
 	
 	printO(2,2);
